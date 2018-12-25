@@ -8,5 +8,6 @@ for k = k0:chunkSize:Nk
     loc(:,i) = k:k+chunkSize-1; 
     BB(i) = Bf(loc(end));
     i=i+1;
+    ahaha =123;
 end
 BB
